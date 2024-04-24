@@ -1,3 +1,51 @@
+/* ========Google font */
+
+
+#fontkh {
+  font-family: "Hanuman", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+#hanuman-black {
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 16pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================================= */
 /**
 * Template Name: FlexStart
 * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
@@ -479,7 +527,7 @@ section {
 
 .hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   color: #012970;
 }
@@ -487,7 +535,7 @@ section {
 .hero h2 {
   color: #444444;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .hero .btn-get-started {
@@ -690,6 +738,11 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features h2 {
+  font-size: 30px;
+}
+
+
 .features .feature-box {
   padding: 24px 20px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
@@ -975,7 +1028,7 @@ section {
   background: #fff;
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
   transition: 0.3s;
@@ -1020,7 +1073,7 @@ section {
   list-style: none;
   color: #444444;
   text-align: center;
-  line-height: 26px;
+  line-height: 20px;
   font-size: 16px;
   margin-bottom: 25px;
 }
@@ -1030,8 +1083,10 @@ section {
 }
 
 .pricing ul .na {
-  color: #ccc;
+  font-size: 20px;
+  color: #d87575;
   text-decoration: line-through;
+  margin-bottom: -25px;
 }
 
 .pricing .btn-buy {
